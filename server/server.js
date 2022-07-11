@@ -36,6 +36,6 @@ app.get("/api/v1/coaster/:coaster_id", (req, res) => {
 });
 
 // Listen
-app.listen(3000, () => {
-  console.log("listening on port 3000");
+app.listen(9000, () => {
+  console.log("listening on port 9000");
 });
