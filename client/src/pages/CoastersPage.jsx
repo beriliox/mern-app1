@@ -6,7 +6,9 @@ const CoastersPage = () => {
     <main>
       <h1>This it will be list</h1>
       <hr />
-      <Link href="/">Home</Link>
+      <Link href="/" to="">
+        Home
+      </Link>
     </main>
   );
 };
