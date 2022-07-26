@@ -5,7 +5,7 @@ const app = express();
 // DB connection
 const mongoose = require("mongoose");
 mongoose
-  .connect("mongodb://127.0.0.1/ce-mern-app1", { useNewUrlParser: true })
+  .connect("mongodb://mongo:27018/ce-mern-app1", { useNewUrlParser: true })
   .then(() => console.log("DB connected"))
   .catch((err) => console.log(err));
 
