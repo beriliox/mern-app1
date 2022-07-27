@@ -21,6 +21,10 @@ app.get("/", (req, res) => {
   });
 });
 
+// CORS
+const cors = require("cors");
+app.use(cors());
+
 app.get("/api/v1/coasters", (req, res) => {
   Coaster.find()
     .then((coasters) => res.json(coasters))
