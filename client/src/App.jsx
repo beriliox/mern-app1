@@ -10,8 +10,8 @@ const App = () => {
     <div className="container">
       <Routes>
         <Route path="/" element={<IndexPage />} />
-        <Route path="/gallery" element={<CoastersPage />} />
-        <Route path="/whatever" element={<CoastersDetails />} />
+        <Route path="/coasters" element={<CoastersPage />} />
+        <Route path="/coasters/:coaster_id" element={<CoastersDetails />} />
       </Routes>
     </div>
   );

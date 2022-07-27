@@ -1,0 +1,8 @@
+.coaster-detail {
+  display: inline-block;
+}
+
+.coaster-detail img {
+  width: 100%;
+  object-fit: cover;
+}
