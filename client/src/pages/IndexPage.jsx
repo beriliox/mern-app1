@@ -5,9 +5,7 @@ const IndexPage = () => {
     <main>
       <h1>Welcome to coasters MERN</h1>
       <hr />
-      <Link href="/gallery" to="">
-        View gallery
-      </Link>
+      <Link to="/gallery">View gallery</Link>
     </main>
   );
 };
