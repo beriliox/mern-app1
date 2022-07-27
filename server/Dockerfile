@@ -1,4 +1,4 @@
-FROM node:18.5-alpine
+FROM node:18.6-alpine
 
 WORKDIR /usr/src/app
 
@@ -11,4 +11,6 @@ COPY . .
 
 EXPOSE 9000
 
-CMD [ "server.js" ]
+# CMD [ "server.js" ]
+
+CMD tail -f /etc/issue
